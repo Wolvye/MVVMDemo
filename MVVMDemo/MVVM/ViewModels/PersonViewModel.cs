@@ -14,8 +14,13 @@ namespace MVVMDemo.MVVM.ViewModels
         {
            Person = new Person
             {
-                Name = "Alex",
-                Age = 100
+               Name = "Alex",
+               Age = 50,
+               Married = true,
+               BirthDate = new DateTime(200,08,02),
+               Weight = 100,
+               Luchtime = new TimeSpan(10,0,0)
+
             };
         }
     }
